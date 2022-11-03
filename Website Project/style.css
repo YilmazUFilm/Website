@@ -1,0 +1,38 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: content-box
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tc-container {
+    width: 500px;
+    height: 700px;
+    margin-top: 0px;
+    position: relative;
+}
+.tc-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-img{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+.top-img:hover{
+    opacity: 1;
+}
+
+.top-img{
+    scale: 85%
+}
+.tc-container img{
+    object-fit: contain;
+}
